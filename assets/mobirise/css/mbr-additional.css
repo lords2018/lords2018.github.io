@@ -1405,7 +1405,7 @@ body {
 .cid-qUaFm9ufTQ {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/superga-suite-golden-palace-torino-3-1248x796.jpg");
+  background-image: url("../../../assets/images/11-1248x796.jpg");
 }
 @media (min-width: 992px) {
   .cid-qUaFm9ufTQ .mbr-figure {
@@ -1672,6 +1672,26 @@ body {
     margin: 0 0.5rem;
   }
 }
+.cid-qUc6B8wULw {
+  background: #ffffff;
+}
+.cid-qUc6B8wULw .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qUc6B8wULw .video-block {
+    width: 100% !important;
+  }
+}
+.cid-qVi7pB0xVp {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+.cid-qVi7pB0xVp .mbr-section-subtitle {
+  color: #767676;
+}
 .cid-qVhZSbuKcI {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1709,18 +1729,6 @@ body {
     flex: 0 0 20%;
     max-width: 20%;
     padding: 15px;
-  }
-}
-.cid-qUc6B8wULw {
-  background: #ffffff;
-}
-.cid-qUc6B8wULw .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-qUc6B8wULw .video-block {
-    width: 100% !important;
   }
 }
 .cid-qUaMaN30ZK .google-map {
