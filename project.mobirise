@@ -1,45 +1,44 @@
 {
   "settings": {
-    "name": "savenoprofit",
+    "name": "Site-01-26_1105",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
+      "name": "mobirise4",
+      "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#c0003b",
-        "secondaryColor": "#67252f",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#394b35",
-        "titleFont": "Lato",
-        "subtitleFont": "Lato",
-        "textFont": "Lato",
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true,
-        "isRtl": false
-      },
-      "additionalSetColors": [
-        "#f38d00",
-        "#ac100e",
-        "#602a30",
-        "#f0ab43",
-        "#c0003b"
-      ]
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
     },
-    "versionFirst": "3.12.1",
-    "uniqCompNum": 52,
-    "versionPublish": "4.8.10",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png",
-    "siteFonts": []
+    "versionFirst": "4.8.10",
+    "siteFonts": [],
+    "uniqCompNum": 6,
+    "versionPublish": "4.8.10"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -48,498 +47,337 @@
       "components": [
         {
           "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#e25041"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#e25041"
-            },
-            ".link, .dropdown-item": {
-              "color": "#e25041",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "font-family": "'Lato', sans-serif"
-            },
-            ".link": {
-              "font-size": "1.2rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.300rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#8d002b"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#b10036!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#c0003b"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#e25041",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f0ab43!important"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-0",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "bgColor": "#c0003b",
-            "fontSize": "1.2",
-            "fontName": {
-              "name": "Lato",
-              "url": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "css": "'Lato', sans-serif"
-            },
-            "fontColor": "#e25041",
-            "fontHoverColor": "@primaryColor"
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/a-allegroitalia-siracusa-ortigia-b-1-826x128.png",
-              "height": 128,
-              "alt": "Notte di San Valentino",
-              "link": "index.html",
-              "title": "Allegroitalia Ortigia"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://api.whatsapp.com/send?phone=393404576363&amp;text=Salve,%20vorrei%20informazioni%20sul%20Capodanno%20Etna\" target=\"_blank\">CHATTA SU WHATSAPP</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_styles": {
-            ".btn": {
-              "font-size": "36px"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-size": "60px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "text-align": "center"
-            },
-            ".mbr-section-lead": {
-              "color": "#ffffff",
-              "font-size": "25px"
-            },
-            ".mbr-section-lead B": {
-              "color": "#ffffff",
-              "font-size": "25px"
-            },
-            ".mbr-section-title SPAN": {
-              "color": "#ffffff",
-              "font-size": "36px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            }
-          },
-          "_anchor": "header1-1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/546645-pjxidy-711-2000x2000.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.5"
-          },
-          "title": "San Valentino in suite a Ortigia.<br><span style=\"font-weight: normal;\"><i>Notte in suite privata</i></span><br><span style=\"font-weight: normal;\"><i>Rosa con dedica</i></span><br><span style=\"font-weight: normal;\"><i>Bollicine</i></span><br><span style=\"font-weight: normal;\"><i>Delizia travolgente&nbsp;</i></span><br><span style=\"font-weight: normal;\"><i>Colazione in camera .</i></span><br><br>",
-          "text": "<b></b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://book.ermeshotels.com/#/hotel/2369/channel/904/language/2/rooms?arrival=20181231&amp;departure=20190102%2F2&amp;adults=2%2Fpackage%2Fview%2F4856\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Suite San Velentino a 79 €</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://book.ermeshotels.com/#/hotel/2369/channel/904/language/2/rooms?arrival=20181231&amp;departure=20190102%2F2&amp;adults=2%2Fpackage%2Fview%2F4856\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Chatta su Whatsapp</a>    "
-        },
-        {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            },
-            ".btn": {
-              "font-size": "16px"
-            },
-            "H3": {
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            },
-            "P": {
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box6",
-          "_anchor": "msg-box6-2",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": "2",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/piazza-duomo.-siracusa-armando-rotoletti-1600x1067.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/embed/u6-NQQvzx8U?rel=0&amp;showinfo=0&autoplay=0&loop=0",
-              "rawUrl": "https://youtu.be/u6-NQQvzx8U",
-              "width": 1280,
-              "height": 720
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/creativita0022-1400x732.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "active": true
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=Up83VatKBog",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": "on"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Dimostra quanto sia speciale la persona amata.<br>",
-          "text": "L'offerta include:<br>Soggiorno in Suite. <br>Rosa con dedica personalizzata&nbsp;per rendere speciale e riservata la tua notte romantica. <br>Bottiglia di Bollicine e dessert in camera.<br>Ricca colazione in Suite come prima coccola di un nuovo giorno insieme.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://api.whatsapp.com/send?phone=393404576363&amp;text=Salve,%20vorrei%20informazioni%20sul%20Capodanno%20Etna\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">WHATSAPP</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://book.ermeshotels.com/#/hotel/2369/channel/904/language/2/rooms?arrival=20181231&amp;departure=20190102%2F2&amp;adults=2%2Fpackage%2Fview%2F4856\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUITE A 79€<br></a> "
-        },
-        {
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#c0003b"
+            "& when (@bg-type = 'image')": {
+              "background": "url(@bg-value)"
             },
             ".mbr-section-subtitle": {
-              "color": "#000000"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "color": "#767676",
+              "font-weight": "300"
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Ricorda che i momenti indimenticabili durano una vita ma la promo finisce presto.",
-          "text": "L'offerta è riservata solo per un numero limitato di suite.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PRENOTA ORA</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-1f"
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": 0,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "filterBgColor": false,
-            "bgColor": "#FFFFFF",
-            "showText": false,
-            "filter": false,
-            "images": [
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/hall-min-1706x1138.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/hall-min-1706x1138-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/dlx4-1024x683.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dlx4-1024x683-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/sup-1024x683.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sup-1024x683-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2018-06-29-at-21.15.48-1200x1600.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2018-06-29-at-21.15.48-1200x1600-800x538.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": true
+            ".number-wrap": {
+              "color": "@labelsColor",
+              "border-color": "rgba(255, 255, 255, 0.15)",
+              "position": "relative",
+              "display": "inline-block",
+              "text-align": "center",
+              "padding": "5px 10px 13px 10px",
+              "margin": "0",
+              "min-width": "118px",
+              "border-radius": "2px",
+              "max-width": "100%"
+            },
+            ".number": {
+              "font-style": "normal",
+              "font-weight": "700",
+              "font-size": "55px",
+              "text-transform": "none",
+              "letter-spacing": "-2px",
+              "word-spacing": "0",
+              "line-height": "1.3",
+              "color": "@numbersColor"
+            },
+            ".period": {
+              "display": "block",
+              "padding-top": "2px",
+              "border-top": "1px solid rgba(0, 0, 0, 0.1)"
+            },
+            ".dot": {
+              "position": "absolute",
+              "top": "-10px",
+              "right": "-1em",
+              "width": "1em",
+              "display": "block",
+              "height": "83%",
+              "overflow": "hidden",
+              "font-style": "normal",
+              "font-weight": "700",
+              "font-size": "55px",
+              "line-height": "89.65px",
+              "text-transform": "none",
+              "letter-spacing": "0",
+              "word-spacing": "0",
+              "color": "@numbersColor"
+            },
+            ".countdown-cont": {
+              "max-width": "700px",
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".dot": {
+                "display": "none"
               }
-            ]
-          },
-          "articleLayout": false,
-          "allItem": "All",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-t"
-        },
-        {
-          "_inherit": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#28262b"
             },
-            ".mbr-section-text": {
-              "color": "#565656"
+            "@media (max-width: 543px)": {
+              ".number-wrap": {
+                "margin-bottom": "15px"
+              }
+            },
+            "@media (max-width: 550px)": {
+              ".col-xs-3": {
+                "padding-left": "0",
+                "padding-right": "0",
+                "max-width": "25%",
+                "flex": "0 0 25%"
+              },
+              ".number-wrap": {
+                "min-width": "auto"
+              }
+            },
+            "@media (max-width: 440px)": {
+              ".number, .dot": {
+                "font-size": "40px"
+              }
+            },
+            "@media (max-width: 380px)": {
+              ".period": {
+                "font-size": "0.8rem"
+              }
             }
           },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "showArrow": true,
-            "imageSize": 50,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#ccc",
-            "overlayOpacity": "0.9"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://youtu.be/aTBHp5wAeak",
-              "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": "on"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Comfort e servizi da Suite.",
-          "text": "l luxury Condotel Allegroitalia Siracusa Ortigia, si trova nel cuore di Ortigia con servizi di un hotel di lusso.<br><br>Il Condotel è stato ricavato in un antico palazzo del 1700 completamente restaurato nel cuore della Giudecca: vecchio quartiere Ebraico dove si trovano i resti del Mikvé, antico bagno di purificazione ebraica, il più antico di tutte le Sinagoghe europee e proprio di fronte al condotel. A pochi minuti si trova anche la quattrocentesca Sinagoga di Siracusa, uno dei luoghi più suggestivi della città.<br><br>Una vera e propria esperienza sensoriale, immergendosi nelle abitudini, nei colori e nei profumi di un luogo unico al mondo, Patrimonio dell’Umanità UNESCO.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://book.ermeshotels.com/#/hotel/2369/channel/904/language/2/rooms?arrival=20181231&amp;departure=20190102%2F2&amp;adults=2%2Fpackage%2Fview%2F4856\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Prenota la Suite San Valentino</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "header6",
-          "_anchor": "header6-z"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "2",
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://book.ermeshotels.com/#/hotel/2369/channel/904/language/2/rooms?arrival=20181231&amp;departure=20190102%2F2&amp;adults=2%2Fpackage%2Fview%2F4856\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHATTA SU WHATSAPP</a> ",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-w",
-          "_styles": {
-            ".btn": {
-              "font-size": "16px"
-            }
-          }
+          "_name": "countdown1",
+          "_customHTML": "<section class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Superiore\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Inferiore\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Mostra titolo\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostra sottotitoli\" name=\"showSubtitle\" checked>\n        <input type=\"text\" title=\"Conto alla rovescia\" name=\"countdown\" value=\"2018/02/03\">\n        <input type=\"text\" inline title=\"Giorni\" name=\"daysCountdown\" value=\"Giorni\">\n        <input type=\"text\" inline title=\"Ore\" name=\"hoursCountdown\" value=\"Ore\">\n        <input type=\"text\" inline title=\"Minuti\" name=\"minutesCountdown\" value=\"Minuti\">\n        <input type=\"text\" inline title=\"Secondi\" name=\"secondsCountdown\" value=\"Secondi\">\n        <input type=\"color\" title=\"Colore numeri\" name=\"numbersColor\" value=\"#28262b\">\n        <input type=\"color\" title=\"Colore etichetta\" name=\"labelsColor\" value=\"#565656\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Immagine di sfondo\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Colore di sfondo\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video di sfondo\" value=\"https://www.youtube.com/watch?v=K6B5ugQhBLo\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Sovrapponi\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Colore sovrapposto\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacità\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container \">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Conto alla rovescia\n        </h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Mobirise ha fornito agli sviluppatori di siti Web una libreria crescente di blocchi moderni che possono essere utilizzati parzialmente o completamente per ogni sito web sviluppato attraverso il costruttore.\n        </h3>\n        \n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown\"></div> \n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown\"></div> \n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown\"></div>\n        <div class=\"countdown pt-5 mt-2\" data-due-date=\"{{countdown}}\"> \n        </div>\n    </div>\n</section>",
+          "_cid": "rgfL0xkRIv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "countdown1-3"
         },
         {
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
             },
-            ".mbr-section-title": {
-              "color": "#c0003b",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".mbr-section-subtitle": {
-              "color": "#000000"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-icofont": {
+              "font-size": "48px",
+              "color": "#353535"
+            },
+            ".show-modal span": {
+              "cursor": "pointer",
+              "background-color": "#ffffff",
+              "border-radius": "50%",
+              "width": "6rem",
+              "height": "6rem",
+              "position": "relative",
+              "display": "inline-block",
+              "transition": "all 0.25s",
+              "&:before": {
+                "position": "absolute",
+                "left": "50%",
+                "top": "50%",
+                "-webkit-transform": "translateX(-50%) translateY(-50%)",
+                "transform": "translateX(-50%) translateY(-50%)"
+              }
+            },
+            ".mbr-figure": {
+              "width": "100px",
+              "height": "100px",
+              "margin-bottom": "10px",
+              "margin": "auto",
+              "transition": "transform 1s",
+              "cursor": "pointer",
+              "a": {
+                "width": "100px",
+                "height": "100px",
+                "line-height": "100px",
+                "font-size": "100px",
+                "&:before": {
+                  "width": "100px",
+                  "height": "100px"
+                }
+              },
+              "&:hover": {
+                "transform": "scale(1.15)",
+                "transition": "transform 1s",
+                "-webkit-transform": "scale(1.15)"
+              }
+            },
+            ".mbri-play:before": {
+              "left": "55% !important"
+            },
+            ".form-inline": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              ".form-group": {
+                "padding": "0.5rem"
+              },
+              "input": {
+                "text-align": "center"
+              }
+            },
+            "h3": {
+              "color": "#ffffff",
+              "text-align": "center",
+              "font-weight": "300"
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "display": "none",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              "& .modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle",
+                "text-align": "-o-center",
+                "& .modalWindow-video-container": {
+                  "display": "inline-block",
+                  "width": "100%",
+                  ".modalWindow-video": {
+                    "margin": "auto"
+                  }
+                }
+              }
+            },
+            "a.close": {
+              "position": "absolute",
+              "right": "4vw",
+              "top": "4vh",
+              "color": "#ffffff",
+              "z-index": "5000000",
+              "font-size": "37px",
+              "background": "#000",
+              "padding": "20px",
+              "border-radius": "50%",
+              "&:hover": {
+                "color": "#ffffff"
+              }
+            },
+            "@media (max-width: 500px)": {
+              ".modalWindow-video": {
+                "width": "80%",
+                "height": "200px",
+                "position": "relative"
+              }
+            },
+            "@media (min-width: 500px) and (max-width: 768px)": {
+              ".modalWindow-video": {
+                "width": "90%",
+                "height": "340px",
+                "position": "relative"
+              }
+            },
+            "@media (min-width: 768px) and (max-width: 850px)": {
+              ".modalWindow-video": {
+                "width": "700px",
+                "height": "395px",
+                "position": "relative"
+              }
+            },
+            "@media (min-width: 850px) and (max-width: 1300px)": {
+              ".modalWindow-video": {
+                "width": "800px",
+                "height": "452px",
+                "position": "relative"
+              }
+            },
+            "@media (min-width: 1300px)": {
+              ".modalWindow-video": {
+                "width": "1200px",
+                "height": "675px",
+                "position": "relative"
+              }
             }
           },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgColor": "#fff"
-          },
-          "title": "ALLEGROITALIA SIRACUSA ORTIGIA",
-          "meta": "Suite private con comfort e servizi di un albergo a 4 stelle",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-l"
+          "_name": "header13",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,'mbr-parallax-background' :bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermo intero\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Superiore\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Inferiore\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostra titolo\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Mostra sottotitoli\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Mostra pulsanti\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Mostra video popup\" name=\"showVideoPopUp\" checked=\"\">\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\" condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"Mostra freccia\" name=\"showArrow\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Immagine di sfondo\" value=\"../_images/background3.jpg\" parallax=\"\" selected=\"\">\n            <input type=\"color\" title=\"Colore di sfondo\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Video di sfondo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Sovrapponi\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Colore sovrapposto\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacità\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"mbr-media show-modal align-center pb-4 mb-4 pt-5\" mbr-if=\"showVideoPopUp\" data-modal=\".modalWindow\">\n            <span mbr-icon=\"\" class=\"mbri-play mbr-icofont\">\n            </span>\n        </div>\n\n        <h1 class=\"mbr-section-title align-center pb-3 mbr-white mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n            INTRO CON PUPUP VIDEO\n        </h1>\n\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Introduzione a schermo intero con immagine di sfondo, colore, sovrapposizione, icone, video popup e modulo di iscrizione\n        </h3>\n\n        <div class=\"container mt-5 pt-5 pb-5\">\n            <div mbr-form=\"\" class=\"media-container-column\">\n                <div data-form-alert=\"\" hidden=\"\">\n                    Grazie per aver compilato il modulo!\n                </div>\n\n                <form class=\"form-inline\" action=\"\" method=\"post\" name=\"Mobirise Form\">\n                    <input type=\"hidden\" value=\"\" data-form-email=\"true\">\n                    <div class=\"form-group\">\n                        <input type=\"text\" class=\"form-control input-sm input-inverse\" name=\"name\" required=\"\" data-form-field=\"Name\" placeholder=\"Name\">\n                    </div>\n                    <div class=\"form-group\">\n                        <input type=\"email\" class=\"form-control input-sm input-inverse\" name=\"email\" required=\"\" data-form-field=\"Email\" placeholder=\"Email\">\n                    </div>\n                    <div class=\"form-group\">\n                        <input type=\"tel\" class=\"form-control input-sm input-inverse\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone\">\n                    </div>\n                    <div class=\"buttons-wrap\" mbr-if=\"showButtons\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n                        <a href=\"\" class=\"btn btn-primary\" type=\"submit\" role=\"button\">SOTTOSCRIVI</a>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showVideoPopUp\">\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Chiudi</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "rgfLklKMdE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header13-4"
         },
         {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<blockquote><p><b style=\"font-size: 1.07rem;\">Ospitalità basata sulle tre A : Allegria, Arte e Amore per i Fashion brand!</b><br></p><p><br></p><p><b><br></b></p><p>I 23 appartamenti, molti dei quali si affacciano sull’incantevole Golfo di Ortigia, sono dislocati su due piani e sono stati tutti progettati rispecchiando l’antica tradizione della lavorazione del Tufo Calcareo di Siracusa.</p><p><br></p><p>&nbsp;</p><p>I toni chiari e le linee armoniose degli arredi creano un’atmosfera silenziosa che riflette il ritmo tranquillo della natura.</p><p><br></p><p>&nbsp;</p><p>Diverse le metrature ma uguali gli ampi spazi, con suddivisione di zona giorno e zona notte, li rendono la soluzione ideale sia per le famiglie sia per le coppie.</p></blockquote>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "content2",
-          "_anchor": "content2-9"
-        },
-        {
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://book.ermeshotels.com/#/hotel/2369/channel/904/language/2/rooms?arrival=20181231&amp;departure=20190102%2F2&amp;adults=2%2Fpackage%2Fview%2F4856\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PRENOTA LA SUITE <br>SAN VALENTINO</a> ",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-o",
           "_styles": {
-            ".btn": {
-              "font-size": "16px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "googleMap": {
-              "address": "Via G.B. Alagona, 5596100 Siracusa SR",
-              "placeId": "ChIJN5n4bxzMExMRcfbflynmgb4",
-              "state": "ok",
-              "stateDetails": ""
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-media span": {
+              "font-size": "48px",
+              "cursor": "pointer",
+              "background-color": "#ffffff",
+              "border-radius": "50%",
+              "width": "6rem",
+              "height": "6rem",
+              "line-height": "6rem",
+              "position": "relative",
+              "display": "inline-block",
+              "transition": "all 0.25s",
+              "color": "#353535",
+              "&.mbri-play:before": {
+                "position": "absolute",
+                "left": "50%",
+                "-webkit-transform": "translateX(-35%)",
+                "-moz-transform": "translateX(-35%)",
+                "-ms-transform": "translateX(-35%)",
+                "-o-transform": "translateX(-35%)",
+                "transform": "translateX(-35%)"
+              }
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle"
+              },
+              ".modalWindow-video": {
+                "height": "calc(80vw / 1.778)",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            },
+            "a.close": {
+              "position": "absolute",
+              "right": "4vw",
+              "top": "4vh",
+              "color": "#ffffff",
+              "z-index": "5000000",
+              "font-size": "37px",
+              "background": "#000",
+              "padding": "20px",
+              "border-radius": "50%",
+              "&:hover": {
+                "color": "#ffffff"
+              }
             }
           },
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "map1",
-          "_anchor": "map1-1b"
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#323232",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "ALLEGROITALIA Siracusa Ortigia<br>Via G.B. Alagona, 5596100 Siracusa SR<br>P.IVA \"01619310053\"<br><br>",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-q"
+          "_name": "header8",
+          "_customHTML": "<section class=\"header8\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermo intero\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Superiore\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Inferiore\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostra titolo\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostra Testo\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Mostra video PopUp\" name=\"showVideoPopUp\" checked>\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\" condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"MOstra descrizione\" name=\"showDescription\" checked condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"Mostra pulsanti\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background6.jpg\" title=\"Immagine di sfondo\" selected parallax>\n            <input type=\"color\" value=\"#510938\" title=\"Colore di sfondo\">\n            <input type=\"video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\" title=\"Video di sfondo\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Sovrapponi\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Colore sovrapposto\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacità\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center py-2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        INTRO CON POPUP VIDEO\n                </h1>\n                <p class=\"mbr-text align-center py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">\n                        Intro a schermo intero con immagine di sfondo e popup video.\n                </p>\n                <div class=\"mbr-media show-modal align-center py-2\" mbr-if=\"showVideoPopUp\" data-modal=\".modalWindow\">\n                         <span mbr-icon class=\"mbri-play mbr-iconfont\"></span>\n                </div>\n                <div mbr-text class=\"icon-description align-center font-italic pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription && showVideoPopUp\" data-app-selector=\".icon-description\">\n                        Descrizioni dell'icona\n                </div>\n                <div class=\"mbr-section-btn text-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">PIÙ</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showVideoPopUp\">\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Chiudi</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rgfLoGU49m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header8-5"
         }
       ]
     }
